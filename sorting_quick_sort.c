@@ -48,12 +48,21 @@ void QuickSort(int *a, int low, int high)
 
 int main()
 {
-    int arr[] = {5, 4, 3, 9, 8, 7, 3, 2, 6, 1};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int arr[20], n, i, se;
+    printf("Enter size of the array : ");
+    scanf("%d", &n);
+    printf("Enter elements of the Array : ");
+    for(i=0; i<n; i++){
+        scanf("%d", &arr[i]);
+    }
     int low = 0;
     int high = n - 1;
+    printf("Array before Sorting : ");
+    for(i=0; i<n; i++){
+        printf("%d ", arr[i]);
+    }
     QuickSort(arr, low, high);
-    printf("Sorted array: ");
+    printf("\nSorted array : ");
     for (int i = 0; i < n; i++)
     {
         printf("%d ", arr[i]);
