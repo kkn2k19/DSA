@@ -10,6 +10,8 @@ e. Reversing the list
 f. Deletion of a particular node
 */
 
+QUESTIONS ME JO FUNCTIONS PUCHA GYA H WO LIKH DO BAS!!!!
+
 #include <stdio.h>
 #include <stdlib.h>
 
