@@ -12,6 +12,8 @@ e. Reversing the list
 f. Deletion of a particular Node.
 */
 
+QUESTION ME JO FUNCTIONS PUCHA HO USKO LIKHNA
+
 #include <stdio.h>
 #include <stdlib.h>
 
