@@ -4,8 +4,7 @@ Write a menu-driven program to implement the following Sorting Algorithms
     ii. Selection
     iii. Insertion
 
-Write input() function to take input in the Array, display() function to show the array elements,
-and also write a separate function unsort() which will randomize the positions of the elements in the Array.
+Write input() function to take input in the Array, display() function to show the array elements, and also write a separate function unsort() which will randomize the positions of the elements in the Array.
 */
 
 #include <stdio.h>

@@ -37,7 +37,7 @@ int main()
         printf("3 for Traversing (PRE Order)\n");
         printf("4 for Traversing (POST Order)\n");
         printf("5 for Searching\n");
-        printf("0 for exiting\n");
+        printf("0 to exit\n");
         printf("Enter your choice : ");
         scanf("%d", &option);
         switch (option)
